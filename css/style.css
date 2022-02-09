@@ -1,1 +1,211 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
 
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+/*header section*/
+
+header{
+	width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background: #f9f9f91f;
+}
+
+.logo{
+	width: 10%;
+    float: left;
+
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    padding: 0px 0px;
+    margin: -14px;
+}
+
+.menu{
+	width: 70%;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 20px;
+    padding: 0px;
+}
+
+nav ul li{
+	display: inline-block;
+    margin-left: 50px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 16px;
+    cursor: pointer;
+    font-style: normal;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+
+/*Header section end*/
+
+/*Banner Section*/
+
+.banner{
+	background: url(../img/background.jpg)no-repeat;
+	background-size: cover;
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+}
+
+
+.banner-main {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.banner-main h2 {
+    color: white;
+    font-size: 30px;
+}
+
+
+.banner-main p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.banner-btn {
+    border: 1px solid #77d5d900;
+    background: #97c50a;
+    padding: 12px;
+    width: 130px;
+    color: #ffffff;
+    font-size: 11px;
+}
+/*Banner Section END*/
+
+/*SECTION 2 START*/
+
+.service {
+    width: 100%;
+    float: left;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+.service-one {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.service-icon {
+    width: 70px;
+    height: 80px;
+    line-height: 70px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.service-one h2 {
+    margin: 10px;
+    padding: 3px;
+    color: #7c7373;
+    height: 50px;
+}
+
+
+.service-one p {
+    height: 38px;
+    color: #7c7373;
+}
+
+/*SECTION 2 End*/
+
+/*--Intro Section 2 Start*/
+
+
+.part1 {
+    width: 50%;
+    float: left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    text-align: center;
+    background: #E3F8FD;
+}
+
+.part1 h2 {
+    height: 30px;
+    padding: 5px;
+    color: #5e5454;
+}
+
+.part1 p{
+    
+}
+
+.banner-btn-intro {
+    border: 1px solid #77d5d900;
+    background: #26A4CD;
+    padding: 12px;
+    width: 130px;
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.part2 {
+    width: 50%;
+    float: left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    text-align: center;
+    background: #eaefd2;
+
+}
+
+.part2 h2 {
+    height: 30px;
+    padding: 5px;
+    color: #5e5454;
+}
+
+
+.part2 p{
+    
+}
+.banner-btn-intro2 {
+    border: 1px solid #77d5d900;
+    background: #97c50a;
+    padding: 12px;
+    width: 130px;
+    color: #ffffff;
+    font-size: 11px;
+    margin: 20px;
+}
